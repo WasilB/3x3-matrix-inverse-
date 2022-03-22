@@ -1,7 +1,9 @@
 
 
 #include <iostream>
-using namespace std;
+using std::cin;
+using std::cout;
+using std::endl;
 
 int main()
 {
@@ -24,7 +26,7 @@ int main()
     float ADeterminent = a11 + a22 + a33;
     if (ADeterminent == 0)
     {
-        cout << "Determinent is 0" << endl;
+        cout << "Determinent is 0" << "\n";
     }
 
     // Adjoint
@@ -60,136 +62,6 @@ int main()
        {
            cout << a[i][j] << "  ";
        }
-       cout << endl;
+       cout << "\n";
    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
